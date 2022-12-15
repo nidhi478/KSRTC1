@@ -1,0 +1,147 @@
+.nav-barone {
+    display: flex;
+    flex-direction: row-reverse;
+    align-content:center;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    width: 100%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+    
+}
+.nav-barone ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: montserrat;}
+.nav-barone li {
+        float: right;
+        margin-right: 40px;
+    }
+.nav-barone li a{
+        display: inline-block; color: #FFFFFF; text-align: center;
+        padding: 10px 10px; text-decoration: none;
+    }
+
+    .nav-barone li a:hover {
+        background-color:coral;
+    }
+    .nav-barone ul li:hover::after{
+    width:100%; }
+    .nav-barone ul li::after{
+        content:'';
+        width:100%;
+        height: 2px;
+        background:rgb(0, 0, 0);
+        display: flex;
+        margin: auto;
+        transition: 0.5s;
+    }
+
+
+.nav-bar {
+    display: flex;
+    flex-direction: row-reverse;
+    align-content:center;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.nav-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#FFFFFF;
+    font-family: montserrat;
+    
+    
+}
+.nav-bar li {
+    float: right;
+    margin-right: 30px;
+}
+.nav-bar li a{
+    display: inline-block; color: #000000; text-align: center;
+    padding: 20px 20px; text-decoration: none;
+}
+.nav-bar li a:hover {
+    background-color: #FFFFFF;
+}
+.nav-bar ul li:hover::after{
+width:100%; }
+.nav-bar ul li::after{
+    content:'';
+    width:0%;
+    height: 2px;
+    background:rgb(0, 0, 0);
+    display: flex;
+    margin: auto;
+    transition: 0.5s;
+}
+
+body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-img {
+    /* The image used */
+    background-image: url("login.png");
+  
+    /* Control the height of the image */
+    min-height: 700px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  /* Add styles to the form container */
+  .container {
+    
+    float: right;
+    right: 0;
+    margin: 20px;
+    width: 600px;
+   align-items: center;
+    margin-top: 180px;
+    padding: 16px;
+    background-color: white;
+  }
+  
+  /* Full-width input fields */
+    input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
